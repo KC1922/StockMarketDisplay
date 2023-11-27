@@ -1,63 +1,54 @@
 # Stock-Market-Project
-Stock Market Technical Analysis Project in C# by: Dylan Skroskznik
+Stock Market Analysis Application in C# by: Kyle Cwik
 ---
-## Overview
-This stock market program is all about analyzing stock market data over predetermined selections made by the user. The stock market is The stock market is a collection of exchanges through which equity shares of public companies are issued, bought and sold [1](#references). The role of the stock market is to provide a way for companies to raise capital by selling ownership shares to public investors. At the same time, the stock market allows private investors to buy shares of stock in public companies and become part owners of their businesses [1](#references). 
-The main objective for this program is to thoroughly, accessibly and informatively demonstrate and represent objected oriented program, user to data interaction and technical analysis.
+## Project Overview
+This stock market program is designed to provide a comprehensive and interactive platform for analyzing stock market data, tailored to user-defined parameters. At the heart of this application is the objective to demonstrate and represent object-oriented programming, user-data interaction, and technical analysis in a thorough, accessible, and informative manner. The program allows users to engage with stock market data through a series of user-driven selections, facilitating a deeper understanding of market dynamics.
 
-## Contents
+## Table of Contents
 - [Installation](#installation)
 - [Documentation](#documentation)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [References](#references)
-- [License](#license)
 
 ## Installation
 1. **Clone repository to desired directory**
    ```bash
-   git clone https://github.com/dskroskznik/Stock-Market-Chart-Program.githttps://github.com/dskroskznik/Stock-Market-Chart-Program.git```
-2. **Select and Open project solution file in Visual Studio**
-   ```WindowsFormsStockApp.sln```
+   git clone https://github.com/dskroskznik/Stock-Market-Chart-Program.githttps://github.com/dskroskznik/Stock-Market-Chart-Program.git](https://github.com/KC1922/StockMarketDisplay.git```
+2. **Select and Open project solution folder in Visual Studio**
+   ```StockProjectCS```
 3. **Restore required NuGet packages necessary for project**
-4. **Build and Run**
+4. **Clean solution, Build and Run**
 
 ## Documentation
 Navigate through the Microsoft .NET documentation for resources and guidance on Microsoft Visual Studio.
   - [learn.microsoft.com/dotnet](https://learn.microsoft.com/en-us/dotnet/)
 
-## Features
-1. **ComboBoxes for Candlestick Pattern Selection**
-   - Users can select different stock tickers available using ComboBoxes.
-   - ComboBox dynamically update based on changes in users selection.
-2. **File Selection for Candlestick Data**
-   - Users can choose individual CSV files directly containing stock data.
-   - File selection allows for alternate use of analyzing the datasets.
-3. **Date Interval Selection**
-   - Users can specify a date interval to focus the analysis on a specific time range.
-   - This can be beneficial in examining wider trends and patterns within a defined period.
-4. **CSVHelper Class Integration**
-   - The program uses CSVHelper for assists in parsing candlestick data from the selected file, which simplifies and improves structure.
-5. **Onboard Spreadsheet for Selected Stock Data**
-   - Displays a dedicated table within the application to showcase selected stock data.
-   - Users can interact with the table to explore specific details of the chosen dataset.
-6. **Stock Market Chart Display**
-   - The window displays a visual representation of the stock market data using a candlestick chart.
-   - Candlestick data plotted on the chart can be closely analyzed by mouse over of each candlestick to view more details.
-7. **User-Friendly Interface**
-   - Access to helpful resources for more information or real-time activities on specific stocks are available on the form.
+## Program Features
+1. **Easy to understand UI for Stock and Date Selection**
+   - Uses OpenFileDialog features to allow the user to select one or more stock csv files which allows for trend comparisons.
+   - Date range selection uses DateTimePickers, which gives user greater control over data displayed.
+2. **CSVHelper Class Integration**
+   - CSVHelper is used to improve the csv data parsing process, and creates a cleaner code structure that is easy to modify.
+3. **Candlestick Chart for Displaying Data**
+   - A seperate form containing a chart is created to display the stock data.
+   - Hovering over each candlestick gives more details about it, and they are color coded to denote upward or downward price changes.
+   - Volume is also displayed.
+4. **Extra Features for Chart**
+   - The date range of the data can be modified within the chart form, allowing greater control of displayed data.
+   - A ComboBox allows the user to select different types of candlestick patterns (i.e. bullish, doji, hammer, e.t.c), including multi-stick patterns (i.e. valley, peak, engulfing, e.t.c).
+   - A RichTextBox gives more information on what patterns are being annotated and where they are located.
+5. **Modular Pattern Recognizer**
+   - The structure that identifies patterns, ```patternRecognizer.cs```, uses class inheritence and polymorphism to allow the easy creation of new pattern finders.
+   - ComboBox on chart form is dynamically populated with pattern names and options based on the patterns that exist in the recognizer.
 
 ## Screenshots 
-### Main display of active stock file selected and submitted to form.
-![text](screenshots/Screenshot1.png)
+### Main form that allows for stock selection and date range selection.
+![text](screenshots/screenshot1.png)
 
-### Additional available window for comparison view of a candlestick chart and associative volumes.
-![text](screenshots/Screenshot2.png)
+### Subforms that display the data on chart, multiple forms able to be created and displayed at once.
+![text](screenshots/screenshot2.png)
 
-## References
-[1] Duggan, W. (2022, March 16). Investing Dictionary / Stock Market Definition. Retrieved from US News And World Report: https://money.usnews.com/investing/term/stock-market
-
-## Licensing
-This project is licensed under the Standard Apache License - see the [LICENSE.md](LICENSE.md) file for details.
+### Pattern highlighting and annotation example.
+![text](screenshots/screenshot3.png)
 
 
