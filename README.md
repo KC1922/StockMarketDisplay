@@ -43,12 +43,12 @@ Navigate through the Microsoft .NET documentation for resources and guidance on 
 
 ## Screenshots 
 ### Main form that allows for stock selection and date range selection.
-![text](screenshot1.PNG)
+![text](screenshots/screenshot1.PNG)
 
 ### Subforms that display the data on chart, multiple forms able to be created and displayed at once.
-![text](screenshot2.PNG)
+![text](screenshots/screenshot2.PNG)
 
 ### Pattern highlighting and annotation example.
-![text](screenshot3.PNG)
+![text](screenshots/screenshot3.PNG)
 
 
