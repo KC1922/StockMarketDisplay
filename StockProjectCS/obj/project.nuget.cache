@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k20h2ruwguy3EmpkqqLsvdjBVKzr9PXFmviWr8CJmpXT6KA0M8wGBydu8p1V2XUadusoH0eGZYVc+YBJmYJO2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kyle\\source\\repos\\KC1922\\StockProjectCS\\StockProjectCS\\StockProjectCS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kyle\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kyle\\.nuget\\packages\\winforms.datavisualization\\1.9.0\\winforms.datavisualization.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
