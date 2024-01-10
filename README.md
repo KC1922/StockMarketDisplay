@@ -18,6 +18,7 @@ This stock market program is designed to provide a comprehensive and interactive
    ```StockProjectCS```
 3. **Restore required NuGet packages necessary for project**
 4. **Clean solution, Build and Run**
+5. **Ensure Stock Data folder or similar data is accessible to be used by the software. Code tested on the files located inside the Stock Data folder.**
 
 ## Documentation
 Navigate through the Microsoft .NET documentation for resources and guidance on Microsoft Visual Studio.
